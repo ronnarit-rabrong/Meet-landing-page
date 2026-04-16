@@ -196,7 +196,8 @@ body {
 .hero__img{
 	margin-block: 1.35em;
 	object-fit: cover;
-	scale: 1.35;
+	transform: scale(1.35);
+	transform-origin: center center;
 }
 
 .hero__description{
